@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AtmJsonRequest.h"
 
-@interface ViewController : UIViewController
+#import <CoreLocation/CoreLocation.h>
 
+//
+@interface ViewController : UIViewController<UITableViewDataSource, UITableViewDelegate, ATMJSONDelegate, CLLocationManagerDelegate>
+
+@property(nonatomic) AtmJsonRequest *atmJsonRequest;
+@property (nonatomic) CLLocationManager *locationManager;
 
 @end
 

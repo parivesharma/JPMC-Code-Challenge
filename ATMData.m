@@ -10,4 +10,20 @@
 
 @implementation ATMData
 
+
+
+-(void)setLobbyHrs:(NSMutableArray *)lobbyHrs{
+    if (!_lobbyHrs){
+        _lobbyHrs = [[NSMutableArray alloc] init];
+    }
+    _lobbyHrs = lobbyHrs;
+}
+
+-(void)setDriveUpHrs:(NSMutableArray *)driveUpHrs{
+    if (!_driveUpHrs){
+        _driveUpHrs = [[NSMutableArray alloc] init];
+    }
+    _driveUpHrs = driveUpHrs;
+}
+
 @end

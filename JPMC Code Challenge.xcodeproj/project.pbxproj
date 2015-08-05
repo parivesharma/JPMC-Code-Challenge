@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E221049F11B3A28012EB591 /* libPods-JPMC Code Challenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB735979287BE3940265D61F /* libPods-JPMC Code Challenge.a */; };
+		4096D2A31B726C980003EFF0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4096D2A11B726C980003EFF0 /* ImageIO.framework */; };
+		4096D2A51B726D5F0003EFF0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4096D2A41B726D5F0003EFF0 /* Accelerate.framework */; };
+		4096D2A71B7272DD0003EFF0 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4096D2A61B7272DD0003EFF0 /* podfile */; };
+		40E678AD1B7297D7005E19E5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E678AC1B7297D7005E19E5 /* DetailViewController.m */; };
 		40F19DDE1B7194AB006DCB72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F19DDD1B7194AB006DCB72 /* main.m */; };
 		40F19DE11B7194AB006DCB72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F19DE01B7194AB006DCB72 /* AppDelegate.m */; };
 		40F19DE41B7194AB006DCB72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F19DE31B7194AB006DCB72 /* ViewController.m */; };
@@ -14,6 +19,12 @@
 		40F19DE91B7194AB006DCB72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F19DE81B7194AB006DCB72 /* Images.xcassets */; };
 		40F19DEC1B7194AB006DCB72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F19DEA1B7194AB006DCB72 /* LaunchScreen.xib */; };
 		40F19DF81B7194AB006DCB72 /* JPMC_Code_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F19DF71B7194AB006DCB72 /* JPMC_Code_ChallengeTests.m */; };
+		40F19E031B719808006DCB72 /* AtmTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F19E021B719808006DCB72 /* AtmTableCell.m */; };
+		40F19E0A1B7199B0006DCB72 /* ATMData.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F19E091B7199B0006DCB72 /* ATMData.m */; };
+		40F19E0C1B719CAC006DCB72 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F19E0B1B719CAC006DCB72 /* MapKit.framework */; };
+		40F19E0E1B719CBA006DCB72 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F19E0D1B719CBA006DCB72 /* CoreLocation.framework */; };
+		40F19E141B719D20006DCB72 /* AtmJsonRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F19E131B719D20006DCB72 /* AtmJsonRequest.m */; };
+		40F19E1C1B71E49F006DCB72 /* ViewInMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F19E1B1B71E49F006DCB72 /* ViewInMapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4096D2A11B726C980003EFF0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		4096D2A41B726D5F0003EFF0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		4096D2A61B7272DD0003EFF0 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		40E678AB1B7297D7005E19E5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		40E678AC1B7297D7005E19E5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		40F19DD81B7194AB006DCB72 /* JPMC Code Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JPMC Code Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F19DDC1B7194AB006DCB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40F19DDD1B7194AB006DCB72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +56,20 @@
 		40F19DF11B7194AB006DCB72 /* JPMC Code ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JPMC Code ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F19DF61B7194AB006DCB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40F19DF71B7194AB006DCB72 /* JPMC_Code_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPMC_Code_ChallengeTests.m; sourceTree = "<group>"; };
+		40F19E011B719808006DCB72 /* AtmTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtmTableCell.h; sourceTree = "<group>"; };
+		40F19E021B719808006DCB72 /* AtmTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtmTableCell.m; sourceTree = "<group>"; };
+		40F19E081B7199B0006DCB72 /* ATMData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMData.h; sourceTree = "<group>"; };
+		40F19E091B7199B0006DCB72 /* ATMData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMData.m; sourceTree = "<group>"; };
+		40F19E0B1B719CAC006DCB72 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		40F19E0D1B719CBA006DCB72 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		40F19E121B719D20006DCB72 /* AtmJsonRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtmJsonRequest.h; sourceTree = "<group>"; };
+		40F19E131B719D20006DCB72 /* AtmJsonRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtmJsonRequest.m; sourceTree = "<group>"; };
+		40F19E161B71AB0C006DCB72 /* UtilitiesConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilitiesConfiguration.h; sourceTree = "<group>"; };
+		40F19E1A1B71E49F006DCB72 /* ViewInMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewInMapViewController.h; sourceTree = "<group>"; };
+		40F19E1B1B71E49F006DCB72 /* ViewInMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewInMapViewController.m; sourceTree = "<group>"; };
+		AB735979287BE3940265D61F /* libPods-JPMC Code Challenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JPMC Code Challenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11CD563C17B6CB1DBCF9050 /* Pods-JPMC Code Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPMC Code Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-JPMC Code Challenge/Pods-JPMC Code Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		EC453F16D9D2ACD706FDBC11 /* Pods-JPMC Code Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPMC Code Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JPMC Code Challenge/Pods-JPMC Code Challenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +77,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4096D2A51B726D5F0003EFF0 /* Accelerate.framework in Frameworks */,
+				4096D2A31B726C980003EFF0 /* ImageIO.framework in Frameworks */,
+				40F19E0E1B719CBA006DCB72 /* CoreLocation.framework in Frameworks */,
+				40F19E0C1B719CAC006DCB72 /* MapKit.framework in Frameworks */,
+				3E221049F11B3A28012EB591 /* libPods-JPMC Code Challenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +95,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06F8D71DD44232C856223A3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC453F16D9D2ACD706FDBC11 /* Pods-JPMC Code Challenge.debug.xcconfig */,
+				B11CD563C17B6CB1DBCF9050 /* Pods-JPMC Code Challenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28CC09581A78C5EC2CD3EE99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB735979287BE3940265D61F /* libPods-JPMC Code Challenge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		40F19DCF1B7194AB006DCB72 = {
 			isa = PBXGroup;
 			children = (
+				4096D2A61B7272DD0003EFF0 /* podfile */,
+				4096D2A41B726D5F0003EFF0 /* Accelerate.framework */,
+				4096D2A11B726C980003EFF0 /* ImageIO.framework */,
+				40F19E151B71AAE5006DCB72 /* Utilities */,
+				40F19E101B719CE2006DCB72 /* Delegates */,
+				40F19E071B71994B006DCB72 /* Modal */,
 				40F19DDA1B7194AB006DCB72 /* JPMC Code Challenge */,
+				40F19E0F1B719CC6006DCB72 /* FrameWorks */,
 				40F19DF41B7194AB006DCB72 /* JPMC Code ChallengeTests */,
 				40F19DD91B7194AB006DCB72 /* Products */,
+				06F8D71DD44232C856223A3F /* Pods */,
+				28CC09581A78C5EC2CD3EE99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +146,12 @@
 				40F19DE01B7194AB006DCB72 /* AppDelegate.m */,
 				40F19DE21B7194AB006DCB72 /* ViewController.h */,
 				40F19DE31B7194AB006DCB72 /* ViewController.m */,
+				40F19E1A1B71E49F006DCB72 /* ViewInMapViewController.h */,
+				40F19E1B1B71E49F006DCB72 /* ViewInMapViewController.m */,
+				40E678AB1B7297D7005E19E5 /* DetailViewController.h */,
+				40E678AC1B7297D7005E19E5 /* DetailViewController.m */,
+				40F19E011B719808006DCB72 /* AtmTableCell.h */,
+				40F19E021B719808006DCB72 /* AtmTableCell.m */,
 				40F19DE51B7194AB006DCB72 /* Main.storyboard */,
 				40F19DE81B7194AB006DCB72 /* Images.xcassets */,
 				40F19DEA1B7194AB006DCB72 /* LaunchScreen.xib */,
@@ -119,6 +186,49 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		40F19E071B71994B006DCB72 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				40F19E081B7199B0006DCB72 /* ATMData.h */,
+				40F19E091B7199B0006DCB72 /* ATMData.m */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		40F19E0F1B719CC6006DCB72 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				40F19E0D1B719CBA006DCB72 /* CoreLocation.framework */,
+				40F19E0B1B719CAC006DCB72 /* MapKit.framework */,
+			);
+			name = FrameWorks;
+			sourceTree = "<group>";
+		};
+		40F19E101B719CE2006DCB72 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				40F19E111B719CED006DCB72 /* WebRequest */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		40F19E111B719CED006DCB72 /* WebRequest */ = {
+			isa = PBXGroup;
+			children = (
+				40F19E121B719D20006DCB72 /* AtmJsonRequest.h */,
+				40F19E131B719D20006DCB72 /* AtmJsonRequest.m */,
+			);
+			name = WebRequest;
+			sourceTree = "<group>";
+		};
+		40F19E151B71AAE5006DCB72 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				40F19E161B71AB0C006DCB72 /* UtilitiesConfiguration.h */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40F19DFB1B7194AB006DCB72 /* Build configuration list for PBXNativeTarget "JPMC Code Challenge" */;
 			buildPhases = (
+				C2468ABBD56E85A431278ED1 /* Check Pods Manifest.lock */,
 				40F19DD41B7194AB006DCB72 /* Sources */,
 				40F19DD51B7194AB006DCB72 /* Frameworks */,
 				40F19DD61B7194AB006DCB72 /* Resources */,
+				03223D1F87DF8042CE3548EA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,6 +313,7 @@
 			files = (
 				40F19DE71B7194AB006DCB72 /* Main.storyboard in Resources */,
 				40F19DEC1B7194AB006DCB72 /* LaunchScreen.xib in Resources */,
+				4096D2A71B7272DD0003EFF0 /* podfile in Resources */,
 				40F19DE91B7194AB006DCB72 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +327,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03223D1F87DF8042CE3548EA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JPMC Code Challenge/Pods-JPMC Code Challenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2468ABBD56E85A431278ED1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40F19DD41B7194AB006DCB72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40F19E0A1B7199B0006DCB72 /* ATMData.m in Sources */,
+				40F19E141B719D20006DCB72 /* AtmJsonRequest.m in Sources */,
 				40F19DE41B7194AB006DCB72 /* ViewController.m in Sources */,
+				40E678AD1B7297D7005E19E5 /* DetailViewController.m in Sources */,
+				40F19E1C1B71E49F006DCB72 /* ViewInMapViewController.m in Sources */,
 				40F19DE11B7194AB006DCB72 /* AppDelegate.m in Sources */,
 				40F19DDE1B7194AB006DCB72 /* main.m in Sources */,
+				40F19E031B719808006DCB72 /* AtmTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +453,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-objC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -339,6 +491,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-objC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -347,8 +500,13 @@
 		};
 		40F19DFC1B7194AB006DCB72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC453F16D9D2ACD706FDBC11 /* Pods-JPMC Code Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "JPMC Code Challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,8 +515,13 @@
 		};
 		40F19DFD1B7194AB006DCB72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11CD563C17B6CB1DBCF9050 /* Pods-JPMC Code Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "JPMC Code Challenge/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +581,7 @@
 				40F19DFD1B7194AB006DCB72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40F19DFE1B7194AB006DCB72 /* Build configuration list for PBXNativeTarget "JPMC Code ChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +590,7 @@
 				40F19E001B7194AB006DCB72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

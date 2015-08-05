@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ATMData.h"
 @interface DetailViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UINavigationItem *navigationbarr;
+@property (nonatomic)BOOL navigationBarRequired;
+@property(nonatomic)ATMData *atmData;
 @end

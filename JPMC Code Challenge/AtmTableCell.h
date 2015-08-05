@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface AtmTableCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *locType;
+@property (weak, nonatomic) IBOutlet UILabel *distance;
+@property (weak, nonatomic) IBOutlet UILabel *name;
+@property (weak, nonatomic) IBOutlet UILabel *address;
 
 @end

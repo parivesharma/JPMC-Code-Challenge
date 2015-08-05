@@ -8,6 +8,22 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol ATMJSONDelegate <NSObject>
+
+@required
+-(void)success;
+-(void)failed;
+
+
+@end
+
 @interface AtmJsonRequest : NSObject
+
+@property(nonatomic)id<ATMJSONDelegate>delegate;
+@property (nonatomic)NSMutableArray *locationArray;
+
+
+
+-(void) requestWebRequest:(NSURL*)chaseURL;
 
 @end

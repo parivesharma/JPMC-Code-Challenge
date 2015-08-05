@@ -11,3 +11,6 @@
 
 
 #endif
+
+
+#define baseURL @"https://m.chase.com/PSRWeb/location/list.action?lat=%@&lng=%@"

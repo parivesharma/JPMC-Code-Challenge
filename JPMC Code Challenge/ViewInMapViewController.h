@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewInMapViewController : UIViewController
+
+@import GoogleMaps;
+
+
+
+@interface ViewInMapViewController : UIViewController<GMSMapViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UIView *smallView;
+@property (nonatomic) NSMutableArray *atmList;
+@property (nonatomic)NSString *latitude, *longitude;
 
 @end
